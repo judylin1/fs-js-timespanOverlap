@@ -46,7 +46,7 @@ var christmasTimespan = {
 };
 ```
 
-[Sample Data and Answers](samples/isOverlapped.js)
+[Sample Data and Outcomes](samples/isOverlapped.js)
 
 ### Use Moment
 
@@ -65,8 +65,6 @@ Useful documentation:
 * [Moment Parsing](http://momentjs.com/docs/#/parsing/)
 * [Moment Queries](http://momentjs.com/docs/#/query/)
 
-[Sample Data and Answers](samples/moment.js)
-
 ### Test Two Schedules for Overlap
 
 Given 2 arrays of timespan objects, return any conflicting timespans between
@@ -77,5 +75,3 @@ function scheduleOverlap(scheduleA, scheduleB) {
 	// return an array of any overlapping timespans.
 }
 ```
-
-[Sample Data and Answers](samples/scheduleOverlap.js)
